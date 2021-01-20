@@ -1,32 +1,88 @@
 <template>
   <div class="about">
+    <b-container class="cardSpace">
+      <b-row align-v="start">
+        <b-col md="4" xs="10" class="text-center">
+          <Portrait />
+        </b-col>  
 
-    <h3 class="sectionTitle">
-        à propos
-    </h3>
-    <p>
-        Bienvenue !
+        <b-col md="8" xs="10">
+          <div class="intro">
+          <h3 class="sectionTitle">
+            à propos
+          </h3>
+          <p>
+          Je suis Thomas Bouvier, aspirant Front-end Developer à Paris.
+          </p>
+          <p>
+            Après 10ans en tant qu'infographiste en retouche photographique,
+            j'ai décidé de me réorienter professsionellement. Ayant toujours eu
+            un intérêt pour les nouvelles technologies, j'ai décidé de sauter le
+            pas en intégrant la Coding Academy by Epitech à Paris, qui valorise
+            l'apprentissage en autonomie, et en octobre 2020, j'ai écris mes premières
+            lignes de code.
+            </p>
+            <p>
+            Mon cursus de spécialisation front-end se termine et
+            je cherche maintenant à compléter ma formation grâce à un stage qui
+            me permettra de parfaire mes nouvelles compétences.
+            </p>
+          <b-row>
+            <b-col class="p-3 text-center" >
+              <CV/>
+            </b-col>
+          </b-row>
 
-        Après 10ans en tant qu'infographiste en retouche photographique, j'ai décidé de me réorienter professsionellement.
+          </div>
+        </b-col>
+      </b-row>
 
-        Ayant toujours eu un intérêt pour les nouvelles technologies, j'ai décidé de sauter le pas en intégrant la 
-        Coding Academy by Epitech à Paris, qui valorise l'apprentissage en autonomie.
-
-        Mon cursus de spécialisation front-end se terminant, je cherche maintenant à compléter ma formation grâce à un stage
-        qui me permettra de parfaire mes nouvelles compétences.
-    </p>
-
+    </b-container>
+    
   </div>
 </template>
 
 <script>
+import Portrait from "./Portrait.vue";
+import CV from './CV.vue'
+
 export default {
-    name: 'About'
-}
+  name: "About",
+  components: {
+    Portrait,
+    CV
+  },
+};
 </script>
 
-<style>
+<style scoped>
+.sectionTitle {
+  top: 40px;
+  text-transform: capitalize;
+  color: #344a42;
+  text-align: left;
+}
 
+.cardSpace {
+  border-top: #2b2b2b solid 2px;
+  border-left: #2b2b2b solid 2px;
+  border-radius: 25px;
+  background: rgb(23,25,26);
+  box-shadow: 10px 10px 13px #141414,
+              inset 10px 10px 13px #141414,
+              -7px -7px 10px #1d1d1d,
+              inset -7px -7px 10px #1d1d1d;
+  z-index: 2;
+}
 
+.about {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 3%;
+}
 
+.intro {
+  padding: 50px;
+}
 </style>

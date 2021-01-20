@@ -12,9 +12,6 @@
       <Experiences/>
     </div>
     <div id="fourth">      
-      <Studies/>
-    </div>
-    <div id="fifth">      
       <Contact/>
     </div>
 
@@ -29,7 +26,6 @@ import Navbar from './components/Navbar.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import About from './components/About.vue'
 import Experiences from './components/Experiences.vue'
-import Studies from './components/Studies.vue'
 import Contact from './components/Contact.vue'
 
 export default {
@@ -40,7 +36,6 @@ export default {
     HelloWorld,
     About,
     Experiences,
-    Studies,
     Contact
   }
 }
@@ -56,12 +51,8 @@ html {
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #ffffff;
+  color: rgb(236, 236, 236);
 }
-
-  /* text-align: center;
-  color: #2c3e50;
-  margin-top: 60px; */
 
 
 #first {
@@ -73,34 +64,30 @@ html {
 }
 
 #second{
-  height: 100vh;
-  background: #1E1E1E;
+  height: 100%;
+  background: rgb(23,25,26);
+  /* background: linear-gradient(320deg, rgba(23,25,26,1) 74%, rgba(33,36,37,1) 100%); */
 }
 
 #third{
-  height: 100vh;
-  background: #7a7a7a;
+
+  background: rgb(23,25,26);
 }
 
 #fourth{
   height: 100vh;
-  background: #272727;
+  background: rgb(23,25,26);
 }
-
-#fifth{
-  height: 100vh;
-  background-image: url("./assets/contact.jpg");
-}
-
 
 
 a {
     text-decoration: none;
-  
+    color: darkgrey;
 }
 
-.sectionTitle {
-  text-transform: capitalize;
+a:hover {
+    color: #344a42;
+    text-decoration: none;
 }
 
 
