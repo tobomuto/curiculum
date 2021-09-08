@@ -12,7 +12,7 @@
             à propos
           </h3>
           <p>
-          Je suis Thomas Bouvier, aspirant Front-end Developer à Paris.
+          Je suis Thomas Bouvier, Front-end Developer Junior.
           </p>
           <p>
             Après 10ans en tant qu'infographiste en retouche photographique,
@@ -20,13 +20,12 @@
             un intérêt pour les nouvelles technologies, j'ai décidé de sauter le
             pas en intégrant la Coding Academy by Epitech à Paris, qui valorise
             l'apprentissage en autonomie, et en octobre 2020, j'ai écris mes premières
-            lignes de code.
-            </p>
-            <p>
-            Mon cursus de spécialisation front-end se termine et
-            je cherche maintenant à compléter ma formation grâce à un stage qui
-            me permettra de parfaire mes nouvelles compétences.
-            </p>
+            lignes de code. J'ai pu ensuite rejoindre l'équipe d'Open Mind Neurotechnologies 
+            en tant que stagiaire développeur Front-End et participer des projets passionants. 
+          </p>
+          <p>
+            Je me sens maintenant prêt à intégrer une nouvelle équipe et à faire face<br> à de nouveaux défis !
+          </p>
           <b-row>
             <b-col class="p-3 text-center" >
               <CV/>

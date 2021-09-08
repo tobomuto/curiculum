@@ -1,9 +1,6 @@
 <template>
   <div class="chronologie">
 
-    <!-- <b-container fluid>
-      <b-row>
-        <b-col> -->
       <h3 class="sectionTitle" id="chronologie">Chronologie</h3>
 
       <div class="ligne"></div>
@@ -14,8 +11,21 @@
       <div class="rond r4" data-anim="4"></div>
       <div class="rond r5" data-anim="5"></div>
 
-
       <div class="box b1">
+        <h6>2020-présent</h6>
+        <h4>Développeur Front End (Stage)</h4>
+        <h5><a href="https://www.coding-academy.fr/">OPEN MIND NEUROTECHNOLOGIES</a>, (FULL-REMOTE)</h5>
+        <ul>
+          <li>-Intégration HTML5/CSS3(SASS/LESS) des maquettes adobeXD (VueJs)</li>
+          <li>-Création puis maintenance du front-end du service web (VueJs)</li>
+          <li>-Dialogue avec l'API via Axios et traitement des datas</li>
+          <li>-Intégration des templates emailing via MJML</li>
+          <li>-Pair-programming avec le développeur back-end</li>
+
+        </ul>
+      </div>
+
+      <div class="box b2">
         <h6>2020-présent</h6>
         <h4>Formation développement web front-end</h4>
         <h5><a href="https://www.coding-academy.fr/">CODING ACADEMY BY EPITECH</a>, PARIS</h5>
@@ -25,7 +35,7 @@
         </ul>
       </div>
 
-      <div class="box b2">
+      <div class="box b3">
       <h6>2011-2019</h6>
       <h4>RETOUCHEUR PHOTO EXPERT</h4>
       <h5><a href="http://lacenstudio.com/">LACEN STUDIO</a>, PARIS</h5>
@@ -39,7 +49,7 @@
       </ul>
       </div>
 
-      <div class="box b3">
+      <div class="box b4">
       <h6>2008-2010</h6>
       <h4>MAQUETTISTE (ALTERNANCE)</h4>
       <h5>TALON HAUT STUDIO, PARIS</h5>
@@ -53,20 +63,18 @@
       </ul>
       </div>
       
-      <div class="box b4">
+      <div class="box b5">
       <h6>2008-2010</h6>
       <h4>BAC PRO - ARTISANNAT ET MÉTIERS D’ART, OPTION COMMUNICATION GRAPHIQUE (ALTERNANCE)</h4>
       <h5>Campus Fonderie de l’Image, BAGNOLET</h5>
       </div>
 
-      <div class="box b5">
+      <!-- <div class="box b5">
       <h6>2006-2008</h6>
       <h4>CAP DESSINATEUR D’EXÉCUTION EN COMMUNICATION GRAPHIQUE</h4>
       <h5>Lycée Corvisart, Paris</h5>
-      </div>
-      <!-- </b-col>
-    </b-row>
-    </b-container> -->
+      </div> -->
+
   </div>
 </template>
 

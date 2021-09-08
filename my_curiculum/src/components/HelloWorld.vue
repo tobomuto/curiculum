@@ -13,15 +13,14 @@ import { gsap } from 'gsap';
 
 export default {
   name: 'HelloWorld',
-  mounted: 
-  function(){
+  mounted: function(){
     this.startAnimation()
   },
   methods: {
-   startAnimation: function() {
+    startAnimation: function() {
     gsap.from('.title, .subtitle', {duration: 1.5, y: -30, opacity: 0, stagger: 0.7})
-   }
- }
+    }
+  }
 }
 </script>
 
@@ -34,11 +33,6 @@ export default {
   position: absolute;
   top: 40%;
 }
-
-/* hr {
-  background-color: white;
-  width: 6rem;
-} */
 
 .title {
   /* text-transform: uppercase; */
