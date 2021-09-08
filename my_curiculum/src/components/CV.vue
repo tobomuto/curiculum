@@ -1,5 +1,5 @@
 <template>
-  <a target="_blank" href="../../public/CV_black-min.pdf" download>Télécharger mon CV</a>
+  <a target="_blank" href="../../public/CV_white-min.pdf" download>Télécharger mon CV</a>
 </template>
 
 <script>
