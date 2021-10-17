@@ -16,12 +16,12 @@
           </p>
           <p>
             Après 10ans en tant qu'infographiste en retouche photographique,
-            j'ai décidé de me réorienter professsionellement. Ayant toujours eu
+            j'ai décidé de me réorienter professionellement. Ayant toujours eu
             un intérêt pour les nouvelles technologies, j'ai décidé de sauter le
             pas en intégrant la Coding Academy by Epitech à Paris, qui valorise
-            l'apprentissage en autonomie, et en octobre 2020, j'ai écris mes premières
+            l'apprentissage en autonomie, et en octobre 2020, j'ai écrit mes premières
             lignes de code. J'ai pu ensuite rejoindre l'équipe d'Open Mind Neurotechnologies 
-            en tant que stagiaire développeur Front-End et participer des projets passionants. 
+            en tant que stagiaire développeur Front-End et participer à des projets passionnants. 
           </p>
           <p>
             Je me sens maintenant prêt à intégrer une nouvelle équipe et à faire face<br> à de nouveaux défis !

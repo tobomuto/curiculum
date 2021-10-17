@@ -12,9 +12,9 @@
       <div class="rond r5" data-anim="5"></div>
 
       <div class="box b1">
-        <h6>2020-présent</h6>
+        <h6>2021</h6>
         <h4>Développeur Front End (Stage)</h4>
-        <h5><a href="https://www.coding-academy.fr/">OPEN MIND NEUROTECHNOLOGIES</a>, (FULL-REMOTE)</h5>
+        <h5><a href="https://www.omind.me/">OPEN MIND NEUROTECHNOLOGIES</a>, (FULL-REMOTE)</h5>
         <ul>
           <li>-Intégration HTML5/CSS3(SASS/LESS) des maquettes adobeXD (VueJs)</li>
           <li>-Création puis maintenance du front-end du service web (VueJs)</li>
